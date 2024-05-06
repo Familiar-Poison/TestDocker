@@ -15,7 +15,7 @@ import psycopg2
 from psycopg2 import OperationalError
 from psycopg2 import sql
 from file_cv_working import *
-
+# Test change
 def write_postgres_table(host, database, user, password, port, csv_file):
     try:
         # Establish a connection to the PostgreSQL database
