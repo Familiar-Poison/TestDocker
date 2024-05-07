@@ -1,0 +1,15 @@
+user,timestamp,hours,project
+ned,2019-09-27 00:00:00 UTC,8.0,bizdev
+robert,09/27/2019 12:00 AM,8.0,bizdev
+ned,2019-09-26 00:00:00 UTC,1.0,cultureandmanagement
+jaime,12/21/2018 12:00 AM,2.0,project-00
+jaime,2018-12-20 00:00:00 UTC,3.0,project-47
+catelyn,2018-11-26 14:47:36.0429 UTC,0.6,opsandadmin
+catelyn,2018-11-26 14:47:36.0429 UTC,1.53,project-43
+catelyn,2018-11-26 14:47:36.0429 UTC,0.38,cultureandmanagement
+cersei,2018-11-26 13:17:30.0426 UTC,3.0,blogideas
+jorah,11/26/2018 12:49 PM,2.0,project-51
+jorah,2018-11-26 12:49:17.0405 UTC,1.5,transit
+jorah,2018-11-26 12:49:17.0405 UTC,0.75,products
+ned,26 сентября 2019 00:00,4.0,bizdev
+catelyn,26 ноября 2018 14:47,0.72,opsandadmin
