@@ -51,7 +51,7 @@ def write_postgres_table(host, database, user, password, port, csv_file):
     # Reads the parsed and formatted csv file
     with open(csv_file, 'r', newline='', encoding='utf-8') as file:
         reader = csv.reader(file)
-        next(reader)
+        #next(reader)
 
         # Pushes it to postgres table
         for row in reader:
