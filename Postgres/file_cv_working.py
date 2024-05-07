@@ -59,11 +59,12 @@ def write_datetime_column(csv_file, final_table):
         writer = csv.writer(file)
         writer.writerows(final_table)
 
-csv_file_path = 'testing.csv' # Provide path to the CSV file containing the ...
+csv_read_path = 'testing.csv' # Provide path to the CSV file containing the ...
+csv_write_path = 'parsed.csv'
 
 to_parse_column = 1 # Index of column to read and parse
 
-postgres_table = parse_date_time_column(csv_file_path, to_parse_column)
+postgres_table = parse_date_time_column(csv_read_path, to_parse_column)
 
-write_datetime_column(csv_file_path, postgres_table)
+write_datetime_column(csv_write_path, postgres_table)
 

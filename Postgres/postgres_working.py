@@ -68,9 +68,9 @@ def write_postgres_table(host, database, user, password, port, csv_file):
 
 to_parse_column = 1 # Index of column to read and parse
 
-postgres_table = parse_date_time_column(csv_file_path, to_parse_column)
+postgres_table = parse_date_time_column(csv_read_path, to_parse_column)
 
-write_datetime_column(csv_file_path, postgres_table)
+write_datetime_column(csv_write_path, postgres_table)
 
 
 
@@ -81,6 +81,7 @@ user = "postgres"
 password = "password"
 port = "5432"  # Default PostgreSQL port is 5432
 
-csv_file_path = 'testing.csv'
+csv_read_path = 'testing.csv' # Provide path to the CSV file containing the ...
+csv_write_path = 'parsed.csv'
 
-write_postgres_table(host, database, user, password, port, csv_file_path)
+write_postgres_table(host, database, user, password, port, csv_write_path)
