@@ -75,7 +75,7 @@ write_datetime_column(csv_file_path, postgres_table)
 
 
 # Provide PostgreSQL connections details
-host = "localhost"
+host = "host.docker.internal"
 database = "postgres"
 user = "postgres"
 password = "password"
