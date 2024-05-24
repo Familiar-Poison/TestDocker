@@ -8,7 +8,7 @@ RUN pip install -r /mnt/app/requirements.txt
 RUN apt-get update && apt-get install -y iputils-ping
 
 RUN --mount=type=secret,id=SMTP_USER \
-    cat /run/secrets/github_token
+    cat /run/secrets/SMTP_USER
 
 # docker build -t python_image https://github.com/Familiar-Poison/TestDocker.git#test
 
