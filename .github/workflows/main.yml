@@ -29,3 +29,5 @@ jobs:
           file: ./Dockerfile
           push: true
           tags: ${{ secrets.DOCKERHUB_USERNAME }}/clockbox:latest
+          secrets: |
+            "SMTP_USER=${{ secrets.SMTP_USER }}"        

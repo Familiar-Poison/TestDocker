@@ -75,6 +75,9 @@ write_datetime_column(csv_write_path, postgres_table)
 
 
 # Provide PostgreSQL connections details
+# If you are using Docker-for-mac or Docker-for-Windows 18.03+, connect to your mysql service using the 
+# host host.docker.internal (instead of the 127.0.0.1 in your connection string).
+
 host = "host.docker.internal"
 database = "postgres"
 user = "postgres"
