@@ -3,13 +3,18 @@
 # .\pg_ctl.exe restart -D D:\RandomPrograms\PostgreSQL\16\data
 
 # Open SQL Shell (psql) - D:\RandomPrograms\PostgreSQL\16\scripts\runpsql.exe
-# Use default values:
+# Use default values: (windows)
 # Server - localhost
 # Database - postgres
 # Post - 5432
 # Username - postgres
 # Password - password
-# Test
+# Use default values: (Mac)
+# Server - localhost
+# Database - postgres
+# Post - 5432
+# Username - franz
+# Password - password
 import csv
 import psycopg2
 from psycopg2 import OperationalError
@@ -80,7 +85,7 @@ write_datetime_column(csv_write_path, postgres_table)
 
 host = "host.docker.internal"
 database = "postgres"
-user = "postgres"
+user = "franz"
 password = "password"
 port = "5432"  # Default PostgreSQL port is 5432
 
